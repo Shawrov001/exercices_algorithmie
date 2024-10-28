@@ -53,7 +53,5 @@ int main(){
     Solution solution;
 
     int res = solution.longestSquareStreak(tab);
-
     std::cout<<"\n"<<res<<std::endl;
-
 }
