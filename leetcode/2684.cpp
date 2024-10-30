@@ -49,6 +49,9 @@ public:
         // On commence par chaque cellule de la première colonne
         for (int i = 0; i < n; i++) {
             maxMoves = max(maxMoves, dfs(i, 0, grid, dp));
+            if(maxMoves == n){
+                break;
+            }
         }
 
         return maxMoves;
